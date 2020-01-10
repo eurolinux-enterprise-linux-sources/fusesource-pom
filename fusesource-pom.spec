@@ -1,6 +1,6 @@
 Name:             fusesource-pom
 Version:          1.9
-Release:          6%{?dist}
+Release:          7%{?dist}
 Summary:          Parent POM for FuseSource Maven projects
 License:          ASL 2.0
 URL:              http://fusesource.com/
@@ -32,6 +32,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.9-7
+- Mass rebuild 2013-12-27
+
 * Thu Aug 15 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.9-6
 - Update to current packaging guidelines
 
